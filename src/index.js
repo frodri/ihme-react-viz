@@ -1,3 +1,9 @@
+
+// Polyfills to make the bar graphs IE11 compatible.
+import 'core-js/fn/array/find';
+import 'core-js/fn/array/from';
+import 'core-js/es6/set';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
