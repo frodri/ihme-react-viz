@@ -1,0 +1,38 @@
+{
+  "name": "ihme-react-viz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3-fetch": "0.0.2",
+    "d3-format": "^1.2.0",
+    "d3-geo": "^1.6.4",
+    "d3-scale-chromatic": "^1.1.1",
+    "history": "^4.6.1",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-addons-shallow-compare": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-router-transition": "^0.1.1",
+    "react-vis": "^1.5.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "topojson-client": "^3.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://frodri.github.io/ihme-react-viz"
+}

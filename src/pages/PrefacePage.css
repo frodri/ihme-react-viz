@@ -1,0 +1,14 @@
+
+.preface-description, .preface-link {
+  display: block;
+  margin-top: 50px;
+}
+
+.preface-instruction, .preface-description {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.preface-instruction {
+   font-weight: 600;
+}

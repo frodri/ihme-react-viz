@@ -1,0 +1,15 @@
+.bargraph-page h2 {
+  float: left;
+}
+
+.bargraph-container {
+    position: relative;
+    clear: both;
+}
+
+.bargraph-tooltip {
+  background-color: black;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 8px;
+}
