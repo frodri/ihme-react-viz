@@ -6,6 +6,7 @@ import * as chromatic from 'd3-scale-chromatic'
 import * as scale from 'd3-scale'
 import * as arrays from 'd3-array'
 
+import './Map.css'
 
 import worldmap from '../data/topology/world-110m.json'
 import { countriesByNumericCode } from '../data'
@@ -37,6 +38,7 @@ const projection = geo.geoMercator()
 const path = geo.geoPath().projection(projection);
 
 
+
 const defaultProps = {
   onPathClick: Function.prototype, 
   onPathMouseOut: Function.prototype, 
@@ -55,7 +57,7 @@ class Map extends React.PureComponent {
       data } = this.props;
     return (
       <svg width="960" height="600" className="choropleth-svg">
-        <g className="key" transform="translate(0,550)">
+        <g className="key" transform="translate(0,550)" textAnchor="middle" >
           {thresholds.map(function(d, i){
             return (<rect key={i} height="8" x={x(d[0])} width={x(d[1]) - x(d[0])} fill={color(d[0])}/>)
           })}

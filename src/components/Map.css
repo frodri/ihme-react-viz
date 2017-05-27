@@ -1,0 +1,7 @@
+.choropleth-svg {
+    overflow: hidden;
+}
+
+.choropleth-svg .tick {
+    font-size: 14px;
+}
